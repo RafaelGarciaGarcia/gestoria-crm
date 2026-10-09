@@ -1,0 +1,32 @@
+# Archivos de configuración con contraseñas
+.env
+.env.*
+config.local.js
+
+# Subidas de usuarios y documentos reales de clientes
+uploads/
+storage/
+error_log
+.well-known/
+documents/
+conexion.php
+responder_ticket.php
+movil.php
+*.pdf
+*.zip
+
+# Bases de datos locales y respaldos
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+PHPMailer-7.1.1/
+
+# Logs y sesiones
+logs/
+*.log
+
+#Archivos de pruebas
+prueba.php
+test.php
+test_envio.php
